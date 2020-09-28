@@ -1,0 +1,126 @@
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(bg1.png);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bg1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+section header {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section header .logo {
+  width: 200px;
+}
+
+section header .logo img {
+  width: 100%;
+}
+
+section header nav ul {
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section header nav ul li {
+  margin-left: 20px;
+}
+
+section header nav ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+}
+
+section .content {
+  width: 100%;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+section .content .w50 {
+  width: 50%;
+  padding: 40px;
+}
+
+section .content .textBx {
+  color: white;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .content .textBx h2 {
+  font-size: 3rem;
+  margin-bottom: 40px;
+}
+
+section .content .textBx p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+section .content .textBx a {
+  font: size 1.2rem;
+  padding: 10px 40px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+section .content .textBx a:hover {
+  background: #746308;
+}
+
+section .content .cardBx {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  -ms-grid-rows: auto auto;
+      grid-template-rows: auto auto;
+}
+
+section .content .cardBx .card {
+  width: 100%;
+  height: 100%;
+}
+
+section .content .cardBx .card img {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,14 @@
+// Lâm Hoàng An --- 99
+@mixin flex($jc:center, $ai:center, $flex-d:row) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+    flex-direction: $flex-d;
+}
+
+@mixin backgroundImg($url, $bz:cover, $bp:center, $br:no-repeat) {
+    background: $url;
+    background-size: $bz;
+    background-position: $bp;
+    background-repeat: $br;
+}

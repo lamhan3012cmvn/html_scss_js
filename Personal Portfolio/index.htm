@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Portfolio</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Testimanial</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <section class="banner">
+        <div class="container">
+            <div class="content">
+                <h2>Hello, I'm </br> <span>lam hoang an.</span></h2>
+                <p>i'm a front end web deverloper.</p>
+                <a href="#">about me</a>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="about">
+        <h2>About</h2>
+        <div class="container">
+            <div class="content">
+                <h2>I'm a Front end developer.</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis accusamus dolores vitae pariatur magni vero dicta distinctio? Veniam maxime officiis repudiandae error, tenetur facere cupiditate in, enim consectetur facilis similique? Possimus
+                    ut molestiae sint quidem? Sapiente exercitationem odio voluptatum praesentium aliquid, ipsam voluptates rerum reiciendis hic. Ipsam asperiores quos dolorem accusamus dignissimos. Saepe illum a dolore quia, excepturi unde iure. Eum
+                    </br>
+                    </br>Earum at, maxime nisi odio perferendis fugiat magnam tempora nulla ex temporibus eius ipsum fuga distinctio ipsa quis illo enim, debitis modi eligendi explicabo, libero sint. Officiis praesentium odit accusantium! Illo iste similique
+                </p>
+            </div>
+            <div class="bgBox">
+                <img src="./images/img1.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="heading">
+            <h2>Our Services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="./images/icon1.png">
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius doloremque reiciendis quibusdam soluta dolores minima obcaecati optio vel rerum quam eaque quae culpa, aut explicabo deserunt neque fuga veniam perspiciatis.Est qui obcaecati
+                </p>
+            </div>
+            <div class="servicesBx">
+                <img src="./images/icon2.png">
+                <h2>New Page</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius doloremque reiciendis quibusdam soluta dolores minima obcaecati optio vel rerum quam eaque quae culpa, aut explicabo deserunt neque fuga veniam perspiciatis.Est qui obcaecati
+                </p>
+            </div>
+            <div class="servicesBx">
+                <img src="./images/icon3.png">
+                <h2>Android</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius doloremque reiciendis quibusdam soluta dolores minima obcaecati optio vel rerum quam eaque quae culpa, aut explicabo deserunt neque fuga veniam perspiciatis.Est qui obcaecati
+                </p>
+            </div>
+            <div class="servicesBx">
+                <img src="./images/icon4.png">
+                <h2>Camera</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius doloremque reiciendis quibusdam soluta dolores minima obcaecati optio vel rerum quam eaque quae culpa, aut explicabo deserunt neque fuga veniam perspiciatis.Est qui obcaecati
+                </p>
+            </div>
+            <div class="servicesBx">
+                <img src="./images/icon5.png">
+                <h2>XYZT</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius doloremque reiciendis quibusdam soluta dolores minima obcaecati optio vel rerum quam eaque quae culpa, aut explicabo deserunt neque fuga veniam perspiciatis.Est qui obcaecati
+                </p>
+            </div>
+            <div class="servicesBx">
+                <img src="./images/icon6.png">
+                <h2>Video</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius doloremque reiciendis quibusdam soluta dolores minima obcaecati optio vel rerum quam eaque quae culpa, aut explicabo deserunt neque fuga veniam perspiciatis.Est qui obcaecati
+                </p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        window.addEventListener('scroll', () => {
+            var header = document.querySelector('header')
+            header.classList.toggle('sticky', window.scrollY > 0);
+        })
+    </script>
+</body>
+
+</html>

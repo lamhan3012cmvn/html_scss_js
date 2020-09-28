@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#form_Register {
+  width: 100%;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("./bg.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+#form_Register .box {
+  position: relative;
+  width: 250px;
+  height: 350px;
+  overflow: hidden;
+}
+
+#form_Register .box form {
+  width: 100%;
+  position: absolute;
+  -webkit-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+}
+
+#form_Register .box form h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+#form_Register .box form div {
+  width: 100%;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+#form_Register .box form div input {
+  width: 100%;
+  padding: 5px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  border: none;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.5);
+  font-size: 1.1rem;
+  background: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #fe8f59;
+}
+
+#form_Register .box form div input:focus, #form_Register .box form div input:valid {
+  border-bottom-color: white;
+}
+
+#form_Register .box form div input:focus + label,
+#form_Register .box form div input:valid + label {
+  top: -22px;
+  left: 0px;
+  color: white;
+}
+
+#form_Register .box form div label {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 1.2rem;
+}
+
+#form_Register .box form .btnBox {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#form_Register .box form .btnBox button {
+  padding: 10px 25px;
+  font-size: 1.2rem;
+  color: #fff;
+  background: rgba(254, 143, 89, 0.5);
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+#form_Register .box #form2,
+#form_Register .box #form3 {
+  left: 250px;
+}
+/*# sourceMappingURL=style.css.map */

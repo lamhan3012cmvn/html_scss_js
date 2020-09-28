@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="form_Register">
+        <div class="box">
+            <form action="" id='form1'>
+                <h2>Register</h2>
+                <div>
+                    <input type="text" required='required'>
+                    <label for="">UserName</label>
+                </div>
+
+                <div>
+                    <input type="password" required='required' value="">
+                    <label for="">Password</label>
+                </div>
+
+                <div>
+                    <input type="password" required='required'>
+                    <label for="">ConfigPassword</label>
+                </div>
+                <div class="btnBox">
+                    <button id='btn1' type="Next1">Next</button>
+                </div>
+
+            </form>
+            <form action="" id='form2'>
+                <h2>ABC</h2>
+                <div>
+                    <input type="text" required='required'>
+                    <label for="">GitHub</label>
+                </div>
+
+                <div>
+                    <input type="text" required='required'>
+                    <label for="">Facebook</label>
+                </div>
+
+                <div>
+                    <input type="text" required='required'>
+                    <label for="">Zalo</label>
+                </div>
+                <div class="btnBox">
+                    <button type="Back2">Back</button>
+                    <button type="Next2">Next</button>
+                </div>
+
+            </form>
+            <form action="" id='form3'>
+                <h2>XYZ</h2>
+                <div>
+                    <input type="text" required='required'>
+                    <label for="">Name</label>
+                </div>
+
+                <div>
+                    <input type="password" required='required'>
+                    <label for="">Age</label>
+                </div>
+
+                <div>
+                    <input type="password" required='required'>
+                    <label for="">Phone</label>
+                </div>
+                <div class="btnBox">
+                    <button type="Back3">Back</button>
+                    <button type="Submit">Submit</button>
+                </div>
+
+            </form>
+        </div>
+
+    </section>
+    <script>
+        let Next1 = document.querySelector('#btn1');
+        let Next2 = document.querySelector('button[type="Next2"]');
+        let Back2 = document.querySelector('button[type="Back2"]');
+        let Back3 = document.querySelector('button[type="Back3"]');
+        let Form1 = document.querySelector('#form1');
+        let Form2 = document.querySelector('#form2');
+        let Form3 = document.querySelector('#form3');
+        Next1.onclick = function() {
+            Form1.style.left = '-250px';
+            Form2.style.left = '0px';
+        };
+        Next2.onclick = function() {
+            Form2.style.left = '-250px';
+            Form3.style.left = '0px'
+        };
+        Back2.onclick = function() {
+            Form1.style.left = '0px';
+            Form2.style.left = '250px';
+        };
+        Back3.onclick = function() {
+            Form2.style.left = '0px';
+            Form3.style.left = '250px'
+        };
+    </script>
+</body>
+
+</html>

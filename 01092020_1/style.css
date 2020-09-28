@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body #banner {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: url("./Img/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body #banner .container {
+  width: 90%;
+  height: 100%;
+  position: relative;
+  background: url("./Img/img.png");
+  background-size: 500px;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+body #banner .container header {
+  width: 100%;
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #banner .container header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #banner .container header nav .logo {
+  width: 10rem;
+  margin-right: 100px;
+}
+
+body #banner .container header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+body #banner .container header nav ul li {
+  margin-right: 20px;
+}
+
+body #banner .container header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+body #banner .container header .cart {
+  width: 3rem;
+}
+
+body #banner .container header img {
+  width: 100%;
+  cursor: pointer;
+}
+
+body #banner .container .content {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+body #banner .container .content button {
+  padding: 10px 20px;
+  background: -webkit-gradient(linear, left top, right top, from(#13cae0), to(#eb3abd));
+  background: linear-gradient(90deg, #13cae0 0%, #eb3abd 100%);
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+}
+
+body #banner .container .content h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  margin: 0;
+  margin-top: 20px;
+}
+
+body #banner .container .content p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+body #banner .container .content .arrow {
+  height: 40px;
+}
+
+body #banner .container .content .arrow img {
+  height: 100%;
+  margin: 10px;
+  cursor: pointer;
+}
+
+body #banner .container .userLink {
+  position: absolute;
+  left: -145px;
+  bottom: 140px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+body #banner .container .userLink ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+body #banner .container .userLink ul li {
+  margin-right: 15px;
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
