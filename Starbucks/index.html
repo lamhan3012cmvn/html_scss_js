@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<section>
+			<div class="clipPath"></div>
+			<header>
+				<div class="logo">
+					<a href=""><img src="./images/logo.png" /></a>
+				</div>
+				<div class="wrap_Menu">
+					<ul>
+						<li>
+							<a href="">Home</a>
+						</li>
+
+						<li>
+							<a href="">Menu</a>
+						</li>
+
+						<li>
+							<a href="">What's New</a>
+						</li>
+
+						<li>
+							<a href="">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</header>
+			<div class="content">
+				<div class="textBox">
+					<h2>
+						It's not just Coffee <br />
+						it's <span>Starbucks</span>
+					</h2>
+					<p>
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum
+						ipsam alias consectetur adipisci, dolorem hic eius eligendi
+						architecto animi. Ea veniam omnis sit accusamus nesciunt dolore
+						exercitationem ex animi voluptatem. Eligendi consectetur cupiditate
+						fuga ab natus.
+					</p>
+					<div class="btn_group">
+						<a class="btn" href="">Learn More</a>
+					</div>
+				</div>
+				<div class="imgBox">
+					<img src="./images/img1.png" class="starbucks" alt="" />
+					<div class="bg"></div>
+				</div>
+				<div class="thumb">
+					<ul>
+						<li data-color="thumb1"> 
+							<img src="./images/thumb1.png" onclick="imgSlider('./images/img1.png');changeClipPathColor('#017143')" alt="" />
+						</li>
+						<li data-color="thumb2">
+							<img  src="./images/thumb2.png" onclick="imgSlider('./images/img2.png');changeClipPathColor('#eb7495')" alt="" />
+						</li>
+						<li data-color="thumb3">
+							<img  src="./images/thumb3.png" onclick="imgSlider('./images/img3.png');changeClipPathColor('#d752b1')" alt="" />
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</body>
+	<script type="text/javascript" >
+	function imgSlider(img){
+		document.querySelector(".starbucks").src=img
+	}
+	function changeClipPathColor(color)
+	{
+		const clipPath=document.querySelector('.clipPath')
+		clipPath.style.background=color
+	}
+	</script>
+</html>
